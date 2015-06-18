@@ -68,7 +68,7 @@ Make the list items horizontal instead of vertical.*/
 	font-size: 10px
 }
 
-/*Number 9. .button-uniform retools a set of buttons to look the same*/
+/*.button-uniform retools a set of buttons to look the same*/
 
 .default {
 	padding: 10px 20px;
@@ -113,6 +113,8 @@ nav a:hover {
     background-color: #FFF;
 }
 
+/*pagination*/
+
 .pagination {
 	text-align: center;
 	padding: 0;
@@ -143,22 +145,23 @@ nav a:hover {
 	border: none;
 }
 
-/*12. Style a stream of user comments.*/
+/*Style a stream of user comments*/
+/*Simmilar to facebook or twiter*/
 
 .img {
 	float: left;
-	padding-right: 10px;
-	
+	padding-right: 10px;	
 }
 
 .text {
 	overflow: hidden;
-	
 }
 
 .tweet {
 	clear: left;
 }
+
+/*tabbed content*/
 
 .tab-content {
 	
@@ -167,10 +170,7 @@ nav a:hover {
 	margin: -5px 0 0 0;
 	padding: 15px;
 	position: relative;
-	bottom: 3px;
-	
-	
-	
+	bottom: 3px;	
 }
 
 .tab li {
@@ -182,20 +182,17 @@ nav a:hover {
 	margin-right: 10px;
 	float: left;
 	border-bottom: 4px solid white;
-	
+	position: relative;
+	top: 2px;	
 }
-
-
 
 .tab-content {
 	clear: left;
 }
 
 .tab a {
-	/*margin-right: 10px;*/
 	text-decoration: none;
-
-	/*padding: 0 10px 0 10px;*/
+	color: black;
 }
 
 .tab div {
@@ -204,5 +201,4 @@ nav a:hover {
 
 .selected {
 	background-color: #e78;
-	padding-bottom: 1px;
 }
