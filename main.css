@@ -165,29 +165,30 @@ nav a:hover {
 
 .tab-content {
 	
-	border: 4px solid #e78;
+	border: 1px solid #e78;
 	border-radius: 10px;
 	margin: -5px 0 0 0;
 	padding: 15px;
-	position: relative;
-	bottom: 3px;	
+	position: relative;	
 }
 
 .tab li {
 	display: block;
-	border: 4px solid #e78;
+	border: 1px solid #e78;
 	border-radius: 10px;
 	border-bottom-left-radius: 0;
 	border-bottom-right-radius: 0;
 	margin-right: 10px;
 	float: left;
-	border-bottom: 4px solid white;
+	
 	position: relative;
-	top: 2px;	
+	top: 1px;
+	z-index: 1;	
 }
 
 .tab-content {
 	clear: left;
+	position: relative;
 }
 
 .tab a {
@@ -199,6 +200,7 @@ nav a:hover {
 	padding: 10px;
 }
 
-.selected {
-	background-color: #e78;
+.tab .tab-selected {
+	border-bottom-color: white;
+
 }
